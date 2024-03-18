@@ -1,3 +1,6 @@
+# note due to the database using album-id instead of AlbumId I'm not sure if everything here is PEP8 complient. Need to make sure I do that for my own work 
+
+
 from sqlalchemy import (
     create_engine, Table, Column, Float, ForeignKey, Integer, String, MetaData
 ) 
